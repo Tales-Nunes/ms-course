@@ -13,8 +13,7 @@ import java.util.Map;
 @Service
 public class PaymentService {
 
-    @Value("${hr-worker.host}")
-    private String workerHost;
+    private final String workerHost = "http://hr-worker";
 
     @Autowired
     private RestTemplate restTemplate;
