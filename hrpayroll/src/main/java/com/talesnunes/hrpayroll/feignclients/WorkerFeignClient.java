@@ -4,6 +4,6 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 
 @Component
-@FeignClient(name = "hr-worker", path = "/workers")
+@FeignClient(name = "hrworker", path = "/workers")
 public interface WorkerFeignClient {
 }

@@ -1,19 +1,19 @@
 package com.talesnunes.hrpayroll.services;
 
-import com.talesnunes.hrpayroll.entities.Payment;
-import com.talesnunes.hrpayroll.entities.Worker;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
+        import com.talesnunes.hrpayroll.entities.Payment;
+        import com.talesnunes.hrpayroll.entities.Worker;
+        import org.springframework.beans.factory.annotation.Autowired;
+        import org.springframework.beans.factory.annotation.Value;
+        import org.springframework.stereotype.Service;
+        import org.springframework.web.client.RestTemplate;
 
-import java.util.HashMap;
-import java.util.Map;
+        import java.util.HashMap;
+        import java.util.Map;
 
 @Service
 public class PaymentService {
 
-    private final String workerHost = "http://hr-worker";
+    private final String workerHost = "http://hrworker";
 
     @Autowired
     private RestTemplate restTemplate;
