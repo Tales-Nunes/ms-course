@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.devsuperior</groupId>
-	<artifactId>hr-eureka-server</artifactId>
+	<artifactId>hreurekaserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>hr-eureka-server</name>
+	<name>hreurekaserver</name>
 	<description>Eureka Server</description>
 
 	<properties>
